@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
+import ReactJs from './requester.js'; 
 
 export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        // Look below!
-        <h1>DevCamp React Starter</h1>
-        <h2>React Redux Router</h2>
+        <ReactJs />
       </div>
     );
   }
